@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>My Portfolio</title>
+        <meta name="viewport" content="width-display-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+
+        <div class="intro">
+            <img class="profilepic" src="https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+            <h1>Hi. I am Rakshita</h1>
+        </div><hr/>
+
+
+        <div class="detailsgrid">
+
+            <div class="iam">
+            <h2>I am</h2>
+                <ul class="list">
+                <li>An Engineer</li>
+                <li>A Designer</li>
+                <li>An Artist</li>
+            </ul>
+            </div>
+
+            <div class="ilove">
+                <h2>I love</h2>
+                    <ul class="list">
+                    <li>To create</li>
+                    <li>To jam</li>
+                    <li>To impact</li>
+                </ul>
+        </div>
+
+        </div><hr/>
+
+
+        <div class="workstitle">
+            <h2>My Works:</h2>
+            <div class="workpicxgrid">
+                <div class="workpicxwrap">
+                    <h4>Project 1</h4>
+                    <img class="work-picx" src="https://blog.addthiscdn.com/wp-content/uploads/2018/05/11124555/3-Things-Great-Websites-Have-in-Common1-672x372.png"/>
+
+                </div>
+                <div class="workpicxwrap">
+                    <h4>Project 2</h4>
+                    <img class="work-picx" src="https://www.michalsons.com/wp-content/uploads/2010/03/website-design-e1564662874285.jpg"/>
+ 
+                </div>
+                <div class="workpicxwrap">
+                    <img class="work-picx" src="https://digital.com/wp-content/uploads/website-builder-thumbnail.png?x68227"/>
+                    <h4>Project 3</h4>
+                </div>
+                <div class="workpicxwrap">
+                    <img class="work-picx" src="https://siteefy.com/wp-content/uploads/2020/05/Website-ideas-Blog-2.jpg"/> 
+                    <h4>Project 4</h4>
+                </div>
+              </div>
+        </div><hr/>
+
+        <div class="links-contact-grid">
+        <div class="links">
+            Connect with me!
+            <ul class="sites">
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://github.com">Github</a></li>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
+            </ul>
+        </div>
+
+
+        <div class="padding-form">
+            Give me a message!
+            <form action="#">
+                <label for="email">
+                    <h4>Email</h4> <input type="email" id="email" placeholder="Enter email">
+                </label>
+                <label for="message">
+                    <br><h4>Message</h4> <textarea id="message" placeholder="Type in message"></textarea>
+                </label>
+                <div class="submit-button-wrapper"><input type="submit" value="Send Message"></div>
+            </form>
+        </div>
+    </div>
+
+    </div>
+
+    </body>
+</html>
